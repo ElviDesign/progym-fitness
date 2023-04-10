@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProGym Фитнес-клуб</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/main_pg.css">
+  <link rel="apple-touch-icon" sizes="192x192" href="images/favicon/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="images/favicon/android-chrome-512x512.png">
+  <link rel="icon" sizes="16x16" href="images/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="mask-icon" href="images/favicon-1/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">  
+</head>
+  <body>
+    <div class="bg-progym">
+      <div class="girl-bg">
+        <header id="headerTop">
+          <div class="container">
+            <div class="header">                     
+              <div class="header-item">
+                <a href="menu_pg.html" class="header-logo"></a>
+              <nav>
+                <ul class="header-nav">
+                  <li><a href="menu_pg.html" class="active">Главная</a></li>
+                  <li><a href="#">Услуги</a></li>
+                  <li><a href="#">Абонименты</a></li>
+                  <li><a href="#">Тренеры</a></li>
+                  <li><a href="#">Контакты</a></li>
+                </ul>
+              </nav>
+              </div>
+              <button type="button" class="button">
+                <span class="button-text">+7 988 456 54-54</span>
+              </button><div class="header-burger">
+              <button class="burger" onclick="openModal()"></button>
+              </div> 
+            </div>
+          </div>
+        </header>
+        <div class="container">
+          <div class="main">
+            <div class="wrapper">
+              <div class="content">
+                <h1 class="content-title">
+                  ИЗМЕНИ СВОЕ ТЕЛО
+                </h1>
+                  <p class="content-text">за 6 000 ₽ в&nbsp; месяц</p>
+                <a href="#calltoaction" class="content-link" href="menu_pg.html">Записаться</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <main>
+      <section class="menu">
+        <div class="container">
+          <div class="menu-header">
+            <h2 class="menu-title">
+              О КЛУБЕ
+            </h2>
+          </div>
+          <div class="menu-grid-3">
+            <div>
+              <p class="title-info"><span>3 000 м²</span><br>
+              общая площадь</p>
+            </div>
+            <div>
+              <p class="title-info"><span>3 зала</span><br>
+              для тренировок</p>
+            </div>
+            <div>
+              <p class="title-info"><span>1 000 м²</span><br>
+            кардио зона</p>
+            </div>
+            <div class="box-fhoto">
+              <img src="images/fhoto/sport-zal-1.png" alt="pic-1" style="width:100%;">
+            </div>
+            <div class="box-fhoto">
+              <img src="images/fhoto/sport-zal-2.png" alt="pic-2" style="width:100%;">
+            </div>    
+            <div class="box-fhoto">
+              <img src="images/fhoto/sport-zal-3.png" alt="pic-3" style="width:100%;">
+            </div>       
+          </div>
+        </div>
+      </section>
+      <section class="menu">
+        <div class="container">
+          <div class="menu-header">
+            <h2 class="menu-title">
+              У НАС ЕСТЬ
+            </h2>
+          </div>
+            <div class="menu-grid">  
+              <div class="pic-text">
+                <img src="images/about/pic-4.png" alt="pic-4" style="width:100%;">
+                <div class="top-left">Кардио зона</div>                      
+              </div>  
+              <div class="pic-text">
+                <img src="images/about/pic-5.png" alt="pic-5" style="width:100%;">
+                <div class="top-left">Зона силовых тренировок</div>                      
+              </div>
+              <div class="pic-text">
+                <img src="images/about/pic-6.png" alt="pic-6" style="width:100%;">
+                <div class="top-left">Групповые занятия</div>                      
+              </div>    
+              <div class="pic-text">
+                <img src="images/about/pic-7.png" alt="pic-7" style="width:100%;">
+                <div class="top-left">Боевые искусства</div>                      
+              </div>    
+              <div class="pic-text">
+                <img src="images/about/pic-8.png" alt="pic-8" style="width:100%;">
+                <div class="top-left">Массажный кабинет</div>                      
+              </div>    
+              <div class="pic-text">
+                <img src="images/about/pic-9.png" alt="pic-9" style="width:100%;">
+                <div class="top-left">Фитнес бар</div>                      
+              </div>         
+            </div>
+        </div>      
+      </section>
+      <section class="menu">
+        <div class="container">
+          <div class="menu-header">
+            <h2 class="menu-title">
+              КЛУБНЫЕ КАРТЫ
+            </h2>
+          </div>
+          <div class="menu-grid-2">
+            <div class="menu-grid-item">
+              <div class="menu-grid-cover-2">
+                <img src="images/sert/sert-1.png" alt="Сертификат-1" style="width: 100%; height: 100%;">
+              </div>
+                <p class="menu-grid-title">От 3 до 12 месяцев безлимитного посещения</p>            
+              <button type="button" class="menu-grid-btn">              
+                <a class="menu-grid-text">Подробнее</a>
+              </button>
+            </div> 
+            <div class="menu-grid-item">
+              <div class="menu-grid-cover-2">
+                <img src="images/sert/sert-2.png" alt="Сертификат-2" style="width: 100%; height: 100%;">
+              </div>
+                <p class="menu-grid-title">От 3 до 12 месяцев безлимитного посещения</p>
+              <button type="button" class="menu-grid-btn">
+                <a class="menu-grid-text">Подробнее</a>
+              </button>
+            </div>
+            <div class="menu-grid-item">
+              <div class="menu-grid-cover-2">
+                <img src="images/sert/sert-3.png" alt="Сертификат-3" style="width: 100%; height: 100%;">
+              </div>
+                <p class="menu-grid-title">От 3 до 12 месяцев безлимитного посещения</p>            
+              <button type="button" class="menu-grid-btn">
+                <a class="menu-grid-text">Подробнее</a>
+              </button>
+            </div>
+            <div class="menu-grid-item">
+              <div class="menu-grid-cover-2">
+                <img src="images/sert/sert-4.png" alt="Сертификат-4" style="width: 100%; height: 100%;">
+              </div>
+                <p class="menu-grid-title">От 3 до 12 месяцев безлимитного посещения</p>
+              <button type="button" class="menu-grid-btn">
+                <a class="menu-grid-text">Подробнее</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="menu">
+        <div class="container">
+          <div class="menu-header">
+            <h2 class="menu-title">
+              ТРЕНЕРЫ
+            </h2>
+          </div>
+          <div class="menu-grid-2">
+            <div class="menu-grid-item">
+              <div class="menu-grid-cover-3">
+                <img src="images/tr/sportsman-1.png" alt="Тренер-1" style="width: 100%; height: 100%;">
+              </div>
+                <p class="menu-grid-title"><span>сергей макаров</span>Персональный фитнес-тренер</p>           
+              <button type="button" class="menu-grid-btn">              
+                <a class="menu-grid-text">Подробнее</a>
+              </button>
+            </div> 
+            <div class="menu-grid-item">
+              <div class="menu-grid-cover-3">
+                <img src="images/tr/sportsman-2.png" alt="Тренер-2" style="width: 100%; height: 100%;">
+              </div>
+                <p class="menu-grid-title"><span>виктория лебедева</span></span>Тренер групповых 
+                  программ</p>
+              <button type="button" class="menu-grid-btn">
+                <a class="menu-grid-text">Подробнее</a>
+              </button>
+            </div>
+            <div class="menu-grid-item">
+              <div class="menu-grid-cover-3">
+                <img src="images/tr/sportsman-3.png" alt="Тренер-3" style="width: 100%; height: 100%;">
+              </div>
+                <p class="menu-grid-title"><span>сергей флоров</span></span>Мастер боевых искусств</p>
+              <button type="button" class="menu-grid-btn">
+                <a class="menu-grid-text">Подробнее</a>
+              </button>
+            </div>
+            <div class="menu-grid-item">
+              <div class="menu-grid-cover-3">
+                <img src="images/tr/sportsman-4.png" alt="Тренер-4" style="width: 100%; height: 100%;">
+              </div>
+                <p class="menu-grid-title"><span>денис орлов</span></span>Персональный тренер</p>
+              <button type="button" class="menu-grid-btn">
+                <a class="menu-grid-text">Подробнее</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="calltoaction" class="menu">
+        <div class="container">
+          <div class="menu-header">
+            <h2 class="menu-title" >
+              ОСТАЛИСЬ ВОПРОСЫ?
+            </h2>                              
+          </div>
+            <p class="menu-grid-title-1">Оставь свои контактные данные и мы свяжемся в рабочее время</p>
+            <form action="#">
+          <div class="input-box">
+            <input type="text" placeholder="ИМЯ" />
+          </div>
+          <div class="input-box">
+            <input type="text" placeholder="АДРЕС ЭЛ.ПОЧТЫ" />
+          </div>
+          <div class="input-box">
+            <input type="text" placeholder="НОМЕР ТЕЛЕФОНА" />
+          </div>          
+          <div class="wrapper-1">
+            <label>
+              <input type="checkbox">              
+            </label>
+          <div class="text">Я принимаю условия пользовательского соглашения и даю согласие на обработку персональных данных в соответствии с требованиями 152-Ф3</div>
+          </div>    
+          <div class="button-1">
+            <input type="button" value="Перезвоните мне" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-box">
+          <div class="footer-item">
+            <img class="footer-logo" src="images/footer-logo-pg.svg" alt="Logo">
+          </div>
+          <div class="footer-item">
+            <ul class="footer-list">
+              <li><a href="menu.html">Главная</a></li>
+              <li><a href="#">Услуги</a></li>
+              <li><a href="#">Абонементы</a></li>
+              <li><a href="#">Тренеры</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+            <ul class="footer-list footer-list-tel footer-tel-mobile">
+              <li>
+                <a href="tel:+79884565454">+ 7 988 456 54-54</a>
+              </li>
+              <li>
+                <a href="tel:+79884343523">+ 7 988 434 35-23</a>
+              </li>
+              <li>
+                <img class="icon-vk" src="images/icon-vk.svg" alt="icon-vk">
+                <img class="icon-tg" src="images/icon-tg.svg" alt="icon-tg">
+              </li>
+            </ul>
+          </div>
+          <div class="footer-item">
+            <ul class="footer-list">
+              <li>
+                <span>Время</span>
+                  ПН - ВС<br>
+                  7:00 - 22:00
+              </li>
+              <li>
+                <span>Адрес</span>
+                  Азов, ул. Ленинградская, 86
+              </li>
+            </ul>
+          </div>
+          <div class="footer-tel">
+            <ul class="footer-list footer-list-tel">
+              <li>
+                <a href="tel:+79884565454">+ 7 988 456 54-54</a>
+              </li>
+              <li>
+                <a href="tel:+79884343523">+ 7 988 434 35-23</a>
+              </li>
+              <li>
+                <img class="icon-vk" src="images/icon-vk.svg" alt="icon-vk">
+                <img class="icon-tg" src="images/icon-tg.svg" alt="icon-tg">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+      <img href="#headerTop" class="button-up hidden" src="images/icon/arrow-icon-up.svg" id="btnUp">
+        <div class="modal" id="modal">
+          <ul class="header-nav" id="modal">
+            <li><a href="menu_pg.html" class="active">Главная</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">Абонименты</a></li>
+            <li><a href="#">Тренеры</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a a href="tel:+79884565454">+7 988 456 54-54</a></li>
+          </ul>
+          <button class="burger-close" onclick="closeModal()"></button>
+        </div>
+      <script> 
+                      // Smooth Scroll
+                      const links = document.querySelectorAll(".banner-link");
+
+                  for (const link of links) {
+                      link.addEventListener("click", clickHandler);
+                  }
+
+                  function clickHandler(e) {
+                      e.preventDefault();
+                      const href = this.getAttribute("href");
+
+                      document.querySelector(href).scrollIntoView({
+                          behavior: "smooth"
+                      });
+                  }
+                      // Button Up
+                      window.onscroll = function(){scrollFunction()};
+
+                  const upbuttons = document.querySelectorAll(".button-up");
+
+                  for (const upbutton of upbuttons) {
+                      upbutton.addEventListener("click", clickHandler);
+                  }
+
+                  function clickHandler(e) {
+                  e.preventDefault();
+                  const href = this.getAttribute("href");
+
+                  document.querySelector(href).scrollIntoView({
+                      behavior: "smooth"
+                  });
+                  }
+                  function scrollFunction() {
+                      if ( document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000){
+                          document.getElementById('btnUp').className = 'button-up visible';
+                      } else {
+                          document.getElementById('btnUp').className = 'button-up hidden';
+                      }
+                  }
+                  // Menu
+                  function openModal() {
+                      document.getElementById("modal").style.top = "0px";
+                  }
+
+                  function closeModal() {
+                      document.getElementById("modal").style.top = "-400px";
+                  }
+                  const anchors = document.querySelectorAll('a[href^="#"]')
+
+                  // Цикл по всем ссылкам
+                  for(let anchor of anchors) {
+                    anchor.addEventListener("click", function(e) {
+                      e.preventDefault() 
+                      const goto = anchor.hasAttribute('href') ? anchor.getAttribute('href') : 'body'
+                      
+                      document.querySelector(goto).scrollIntoView({
+                        behavior: "smooth",
+                        block: "start"
+                      })
+                    })
+                  }
+      </script>
+  </body>
+</html>
