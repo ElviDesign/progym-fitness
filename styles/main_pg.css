@@ -1,6 +1,32 @@
 body {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Noah';
   background-color: #151515;
+}
+@font-face { 
+  font-family: 'Neue Machina';
+  src: url("./fonts/Neue Machina/NeueMachina-Ultrabold.woff2") format("woff2"),
+  url("./fonts/Neue Machina/NeueMachina-Ultrabold.woff") format("woff"),
+  url("./fonts/Neue Machina/NeueMachina-Regular.woff2") format("woff2"),
+  url("./fonts/Neue Machina/NeueMachina-Regular.woff") format("woff"),
+  url("./fonts/Neue Machina/NeueMachina-Regular.woff") format("woff"), 
+  url("./fonts/Neue Machina/NeueMachina-Light.woff2") format("woff2"),
+  url("./fonts/Neue Machina/NeueMachina-Light.woff") format("woff"),
+  url("./fonts/Neue Machina/NeueMachina-Regular.ttf") format("ttf"),
+  url("./fonts/Neue Machina/NeueMachina-Light.ttf") format("ttf"),
+  url("./fonts/Neue Machina/NeueMachina-Ultrabold.ttf") format("ttf"),
+}
+@font-face { 
+  font-family: 'Noah';
+  src: url("./fonts/Noahregularitalic.woff2") format("woff2"),
+  url("./fonts/Noahregularitalic.woff") format("woff"),
+  url("./fonts/Noahregular.woff2") format("woff2"),
+  url("./fonts/Noahregular.woff") format("woff"),
+  url("./fonts/Noahbolditalic.woff2") format("woff2"),
+  url("./fonts/Noahbolditalic.woff") format("woff"),
+  url("./fonts/Noahbold.woff2") format("woff2"),
+  url("./fonts/Noahbold.woff") format("woff"),
+  url("./fonts/Noah-Light.woff") format("woff"),
+  url("./fonts/Noah-Light.woff2") format("woff2");
 }
 .bg-progym {
   display: block;
@@ -26,7 +52,7 @@ body {
   padding-right: 15px;
 }
 .header {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Noah';
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -131,12 +157,11 @@ body {
   width: 380px;
   height: 380px;
   transform: translate(-50% -50%);
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   text-align: center;
 }
 .title-info {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Noah';
   font-weight: 400;
   color: #ffffff;
   font-size: 32px;
@@ -148,7 +173,7 @@ body {
   margin-top: 0;
 }
 .title-info span {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Noah';
   font-size: 64px;
   font-weight: 700;
   color: #ffffff;
@@ -167,14 +192,14 @@ body {
   font-weight: 600;
 }
 .tittle {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Noah';
   font-weight: 700;
   font-size: 79px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 .description {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Noah', sans-serif;
   font-size: 15px;
   line-height: 1.5;
   color: #FAF9F9;
@@ -213,7 +238,7 @@ color: #FBB731;
   margin-bottom: 12px;
 }
 .banner-title span {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Noah', sans-serif;
   display: block;
   max-width: 96px;
   text-align: center;
@@ -226,7 +251,7 @@ color: #FBB731;
   padding: 5px 0; 
 }
 .banner-text {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Noah', sans-serif;
   font-size: 15px;
   color: #FAF9F9;
   max-width: 311px;
@@ -287,10 +312,10 @@ color: #FBB731;
   gap: 40px 20px; 
 }
 .menu-grid-cover {
-  width: 100%;
-  height: 430px;
-  position: relative;
-  overflow: hidden;
+width: 100%;
+height: 430px;
+position: relative;
+overflow: hidden;
 }
 .menu-grid-cover img {
   position: absolute;
@@ -319,7 +344,7 @@ color: #FBB731;
 }
 .menu-grid-title {
   display: grid;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Noah';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -397,7 +422,7 @@ color: #FBB731;
 .input-box textarea {
   resize: none;
   padding: 20px;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Noah';
   color: #ffffff;
 }
 .message-box {
@@ -477,7 +502,7 @@ input[type=checkbox] {
 }
 .footer-list li {
   margin-bottom: 9px;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Noah', sans-serif;
   font-size: 15px;
   color: #FAF9F9;
   font-weight: 700;
@@ -539,7 +564,7 @@ input[type=checkbox] {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  transition: .3s;
+  transition: 0,3s;
 }
 .button-up:hover {
   cursor: pointer;
@@ -582,7 +607,7 @@ input[type=checkbox] {
   margin-bottom: 10px;
 }
 .content-text {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Noah', sans-serif;
   font-size: 64px;
   margin-top: 0;
   line-height: 1.4;
@@ -659,7 +684,7 @@ input[type=checkbox] {
   margin-top: 0;
 }
 .promo-description {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Noah', sans-serif;
   color: #FAF9F9;
   font-size: 15px;
   line-height: 24px;
@@ -724,7 +749,7 @@ input[type=checkbox] {
 }
 @media (max-width: 1220px) {
   .title-info {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Noah';
     font-weight: 400;
     color: #ffffff;
     font-size: 22px;
@@ -736,7 +761,7 @@ input[type=checkbox] {
     margin-top: 0;
   }
   .title-info span {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Noah';
     font-size: 43px;
     font-weight: 700;
     color: #ffffff;
@@ -797,8 +822,7 @@ input[type=checkbox] {
     width: 800px;
     height: 380px;   
     transform: translate(-50% -50%);
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     text-align: center;
     position: center center;
   }
@@ -893,7 +917,7 @@ input[type=checkbox] {
   }
   .content-link, .promo a {
     color: #ffffff;
-    background-color: transparent;
+    background-color: none;
     border-radius: 0;
     text-decoration: none;
     padding: 16px 34px;
@@ -943,13 +967,13 @@ input[type=checkbox] {
     color: white;
   }
   .input-box textarea {
-    resize: none;
+    resize: none; /* чтобы нельзя было менять высоту */
     padding: 20px;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Noah';
     color: #ffffff;
   }
   .message-box {
-    min-height: 110px;
+    min-height: 110px; /* минимальная высота 110px */
   }
     
    label [type=checkbox]{
@@ -995,7 +1019,7 @@ input[type=checkbox] {
     border: 2px solid #ffffff;
     padding: 16px 52px;
     border-radius: 0;
-    transition: .2s;
+    transition: 0.2s;
   }  
   .top-left {
     position: absolute;
@@ -1083,14 +1107,14 @@ input[type=checkbox] {
   .input-box textarea {
     resize: none; 
     padding: 20px;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Noah';
     color: #ffffff;
   }
   .message-box {
     min-height: 110px;
   }
   .text {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Noah';
     letter-spacing: 1.5px;
     font-size: 16px;
     padding-left: 28px;
@@ -1391,8 +1415,7 @@ input[type=checkbox] {
     width: 800px;
     height: 241px;   
     transform: translate(-50% -50%);
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     text-align: center;
     position: center center;
   }
@@ -1401,7 +1424,6 @@ input[type=checkbox] {
   }
 }
 @media (max-width: 413px) {
-  
   .input-box {
     letter-spacing: 1.5px;
     font-size: 18px;
@@ -1455,7 +1477,6 @@ input[type=checkbox] {
   }
 }
 @media (max-width: 360px) {
-  
   .input-box {
     letter-spacing: 1.5px;
     font-size: 18px;
@@ -1513,15 +1534,15 @@ input[type=checkbox] {
   }    
 }
 @media (max-width: 320px) {
-  
   .menu-grid-title span {
     font-size: 32px;
   }
   .text {
+    font-family: 'Noah';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1,5px;
     letter-spacing: 1px;
   }
   .menu-grid-title-1 {
