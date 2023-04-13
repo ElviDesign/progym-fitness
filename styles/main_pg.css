@@ -26,7 +26,7 @@ body {
   padding-right: 15px;
 }
 .header {
-  font-family: 'Noah';
+  font-family: 'Nunito Sans', sans-serif;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -136,7 +136,7 @@ body {
   text-align: center;
 }
 .title-info {
-  font-family: 'Noah';
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 400;
   color: #ffffff;
   font-size: 32px;
@@ -148,7 +148,7 @@ body {
   margin-top: 0;
 }
 .title-info span {
-  font-family: 'Noah';
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 64px;
   font-weight: 700;
   color: #ffffff;
@@ -167,14 +167,14 @@ body {
   font-weight: 600;
 }
 .tittle {
-  font-family: 'Noah';
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 700;
   font-size: 79px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 .description {
-  font-family: 'Noah', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 15px;
   line-height: 1.5;
   color: #FAF9F9;
@@ -213,7 +213,7 @@ color: #FBB731;
   margin-bottom: 12px;
 }
 .banner-title span {
-  font-family: 'Noah', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   display: block;
   max-width: 96px;
   text-align: center;
@@ -226,7 +226,7 @@ color: #FBB731;
   padding: 5px 0; 
 }
 .banner-text {
-  font-family: 'Noah', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 15px;
   color: #FAF9F9;
   max-width: 311px;
@@ -319,7 +319,7 @@ color: #FBB731;
 }
 .menu-grid-title {
   display: grid;
-  font-family: 'Noah';
+  font-family: 'Nunito Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -397,7 +397,7 @@ color: #FBB731;
 .input-box textarea {
   resize: none;
   padding: 20px;
-  font-family: 'Noah';
+  font-family: 'Nunito Sans', sans-serif;
   color: #ffffff;
 }
 .message-box {
@@ -477,7 +477,7 @@ input[type=checkbox] {
 }
 .footer-list li {
   margin-bottom: 9px;
-  font-family: 'Noah', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 15px;
   color: #FAF9F9;
   font-weight: 700;
@@ -582,7 +582,7 @@ input[type=checkbox] {
   margin-bottom: 10px;
 }
 .content-text {
-  font-family: 'Noah', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 64px;
   margin-top: 0;
   line-height: 1.4;
@@ -659,7 +659,7 @@ input[type=checkbox] {
   margin-top: 0;
 }
 .promo-description {
-  font-family: 'Noah', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #FAF9F9;
   font-size: 15px;
   line-height: 24px;
@@ -724,7 +724,7 @@ input[type=checkbox] {
 }
 @media (max-width: 1220px) {
   .title-info {
-    font-family: 'Noah';
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
     color: #ffffff;
     font-size: 22px;
@@ -736,7 +736,7 @@ input[type=checkbox] {
     margin-top: 0;
   }
   .title-info span {
-    font-family: 'Noah';
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 43px;
     font-weight: 700;
     color: #ffffff;
@@ -945,7 +945,7 @@ input[type=checkbox] {
   .input-box textarea {
     resize: none;
     padding: 20px;
-    font-family: 'Noah';
+    font-family: 'Nunito Sans', sans-serif;
     color: #ffffff;
   }
   .message-box {
@@ -995,7 +995,7 @@ input[type=checkbox] {
     border: 2px solid #ffffff;
     padding: 16px 52px;
     border-radius: 0;
-    transition: 0.2s;
+    transition: .2s;
   }  
   .top-left {
     position: absolute;
@@ -1083,14 +1083,14 @@ input[type=checkbox] {
   .input-box textarea {
     resize: none; 
     padding: 20px;
-    font-family: 'Noah';
+    font-family: 'Nunito Sans', sans-serif;
     color: #ffffff;
   }
   .message-box {
     min-height: 110px;
   }
   .text {
-    font-family: 'Noah';
+    font-family: 'Nunito Sans', sans-serif;
     letter-spacing: 1.5px;
     font-size: 16px;
     padding-left: 28px;
@@ -1401,9 +1401,7 @@ input[type=checkbox] {
   }
 }
 @media (max-width: 413px) {
-  * {
-    font-family: 'Noah';
-  }
+  
   .input-box {
     letter-spacing: 1.5px;
     font-size: 18px;
@@ -1457,9 +1455,7 @@ input[type=checkbox] {
   }
 }
 @media (max-width: 360px) {
-  * {
-    font-family: 'Noah';
-  }
+  
   .input-box {
     letter-spacing: 1.5px;
     font-size: 18px;
@@ -1517,14 +1513,11 @@ input[type=checkbox] {
   }    
 }
 @media (max-width: 320px) {
-  * {
-    font-family: 'Noah';
-  }
+  
   .menu-grid-title span {
     font-size: 32px;
   }
   .text {
-    font-family: 'Noah';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
