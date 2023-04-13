@@ -157,7 +157,8 @@ body {
   width: 380px;
   height: 380px;
   transform: translate(-50% -50%);
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   text-align: center;
 }
 .title-info {
@@ -312,10 +313,10 @@ color: #FBB731;
   gap: 40px 20px; 
 }
 .menu-grid-cover {
-width: 100%;
-height: 430px;
-position: relative;
-overflow: hidden;
+  width: 100%;
+  height: 430px;
+  position: relative;
+  overflow: hidden;
 }
 .menu-grid-cover img {
   position: absolute;
@@ -564,7 +565,7 @@ input[type=checkbox] {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  transition: 0,3s;
+  transition: .3s;
 }
 .button-up:hover {
   cursor: pointer;
@@ -822,7 +823,8 @@ input[type=checkbox] {
     width: 800px;
     height: 380px;   
     transform: translate(-50% -50%);
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     text-align: center;
     position: center center;
   }
@@ -917,7 +919,7 @@ input[type=checkbox] {
   }
   .content-link, .promo a {
     color: #ffffff;
-    background-color: none;
+    background-color: transparent;
     border-radius: 0;
     text-decoration: none;
     padding: 16px 34px;
@@ -967,13 +969,13 @@ input[type=checkbox] {
     color: white;
   }
   .input-box textarea {
-    resize: none; /* чтобы нельзя было менять высоту */
+    resize: none;
     padding: 20px;
     font-family: 'Noah';
     color: #ffffff;
   }
   .message-box {
-    min-height: 110px; /* минимальная высота 110px */
+    min-height: 110px;
   }
     
    label [type=checkbox]{
@@ -1415,7 +1417,8 @@ input[type=checkbox] {
     width: 800px;
     height: 241px;   
     transform: translate(-50% -50%);
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     text-align: center;
     position: center center;
   }
@@ -1542,7 +1545,7 @@ input[type=checkbox] {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,5px;
+    line-height: 1.5px;
     letter-spacing: 1px;
   }
   .menu-grid-title-1 {
