@@ -1427,6 +1427,9 @@ input[type=checkbox] {
   }
 }
 @media (max-width: 413px) {
+  * {
+    font-family: 'Noah';
+  }
   .input-box {
     letter-spacing: 1.5px;
     font-size: 18px;
@@ -1480,6 +1483,9 @@ input[type=checkbox] {
   }
 }
 @media (max-width: 360px) {
+  * {
+    font-family: 'Noah';
+  }
   .input-box {
     letter-spacing: 1.5px;
     font-size: 18px;
