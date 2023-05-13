@@ -951,7 +951,7 @@ input[type=checkbox] {
   }
   .menu-grid-3 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     text-align: center;
     gap: 2px 20px;
   }
