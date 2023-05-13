@@ -830,7 +830,7 @@ input[type=checkbox] {
     gap: 2px 15px;
   }
   .menu-grid-3 {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 2px 15px;
   }
   
