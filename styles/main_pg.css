@@ -545,6 +545,7 @@ input[type=checkbox] {
   padding-left: 100px;
 }
 .content-title {
+  font-family: 'Noah', sans-serif;
   max-width: 579px;
   font-size: 96px;
   font-weight: 800;
