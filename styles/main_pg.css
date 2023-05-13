@@ -3,19 +3,6 @@ body {
   background-color: #151515;
 }
 @font-face { 
-  font-family: 'Neue Machina';
-  src: url("./fonts/Neue Machina/NeueMachina-Ultrabold.woff2") format("woff2"),
-  url("./fonts/Neue Machina/NeueMachina-Ultrabold.woff") format("woff"),
-  url("./fonts/Neue Machina/NeueMachina-Regular.woff2") format("woff2"),
-  url("./fonts/Neue Machina/NeueMachina-Regular.woff") format("woff"),
-  url("./fonts/Neue Machina/NeueMachina-Regular.woff") format("woff"), 
-  url("./fonts/Neue Machina/NeueMachina-Light.woff2") format("woff2"),
-  url("./fonts/Neue Machina/NeueMachina-Light.woff") format("woff"),
-  url("./fonts/Neue Machina/NeueMachina-Regular.ttf") format("ttf"),
-  url("./fonts/Neue Machina/NeueMachina-Light.ttf") format("ttf"),
-  url("./fonts/Neue Machina/NeueMachina-Ultrabold.ttf") format("ttf")4
-}
-@font-face { 
   font-family: 'Noah';
   src: url("./fonts/Noahregularitalic.woff2") format("woff2"),
   url("./fonts/Noahregularitalic.woff") format("woff"),
