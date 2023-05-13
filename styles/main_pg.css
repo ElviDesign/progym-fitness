@@ -1,5 +1,8 @@
+* {
+  font-family: 'Noah', sans-serif;
+}
 body {
-  font-family: 'Noah';
+  font-family: 'Noah', sans-serif;
   background-color: #151515;
 }
 @font-face { 
