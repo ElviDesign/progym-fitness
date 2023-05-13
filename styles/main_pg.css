@@ -1172,7 +1172,7 @@ input[type=checkbox] {
     background-image: url(../images/bg-main-color.png);
     background-size: cover;
     width: 100%;
-    height: 1000px;
+    height: 100%;
     background-position: center center;
     margin-bottom: 0;
   }
@@ -1180,7 +1180,7 @@ input[type=checkbox] {
     display: block;
     background-image: url(../images/girl-bg-sh.png);
     width: 100%;
-    height: 1000px;  
+    height: 100%;  
   }  
   .header {
     padding-top: 19px;
