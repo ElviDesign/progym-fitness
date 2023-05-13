@@ -327,6 +327,7 @@ color: #FBB731;
   line-height: 28px; 
 }
 .menu-grid-title span {
+  font-family: 'Noah', sans-serif;
   text-transform: uppercase;
   display: grid;
   font-size: 32px;
@@ -1474,6 +1475,7 @@ input[type=checkbox] {
     background-size: contain;
   }
   .menu-grid-title {
+
     font-size: 24px;
   }
   .menu-grid-title span {
