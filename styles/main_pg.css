@@ -1480,8 +1480,8 @@ input[type=checkbox] {
     padding-left: 0;
   }
   .content-text {
-    max-width: 277px;
-    font-size: 25px;
+    max-width: 300px;
+    font-size: 36px;
     margin-top: 21px;
     line-height: 1.2;    
   }
