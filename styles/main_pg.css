@@ -3,6 +3,10 @@
 }
 h1 {
   font-family: 'Noah', sans-serif;
+  font-weight: 700;
+}
+h2 {
+  font-weight: 700;
 }
 p {
   font-family: 'Noah', sans-serif;
@@ -1305,6 +1309,13 @@ input[type=checkbox] {
   }
 }
 @media (max-width: 480px) {  
+  .content-title {
+    padding-top: 20px;
+    font-size: 65px;
+  }
+  .content-text {
+    font-size: 40px;
+  }
   .button-up {  
     width: 36px;
     height: 36px; 
