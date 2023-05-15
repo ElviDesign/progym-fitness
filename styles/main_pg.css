@@ -38,8 +38,6 @@ main {
   url("./fonts/Noah-Light.woff2") format("woff2");
 }
 
-
-
 .bg-progym {
   display: block;
   background-image: url(../images/bg-main-color.png);
